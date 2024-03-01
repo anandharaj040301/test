@@ -1,0 +1,17 @@
+<div class="header"><br><center><h1>VKM Karate School</h1></center></div>
+    <nav>
+        <div class="logo"><img src="/Images/karate.avif" alt="Karate"></div>
+        
+        
+        <div class="menu">
+            {{#if user}}
+            <a href="/Home">Home</a>
+            <a href="/Profile">Profile</a>
+            <a href="/auth/Logout">Logout</a>
+            {{else}}
+           
+            <a href="/Register">Register</a>
+            <a href="/Login">Login</a>
+             {{/if}}
+        </div>
+    </nav><div class="background">
